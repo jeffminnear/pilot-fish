@@ -29,10 +29,18 @@
     "test": "grunt nodeunit"
   },
   "devDependencies": {
+    "chalk": "^1.1.1",
+    "cheerio": "^0.20.0",
+    "commander": "^2.9.0",
+    "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.5"
+    "request": "^2.69.0"
   },
-  "keywords": []
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "pf-steam": "lib/steam-scraper.js"
+  }
 }
