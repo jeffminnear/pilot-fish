@@ -41,6 +41,7 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "pf-steam": "lib/steam-scraper.js"
+    "pf-steam": "lib/steam-scraper.js",
+    "pf-gog": "lib/gog-scraper.js"
   }
 }
