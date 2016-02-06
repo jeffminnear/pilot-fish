@@ -3,12 +3,12 @@
 A Node.js command line utility to check the prices of PC games on various sites
 
 ## Getting Started
-Install the module with: `npm install pilot-fish`
+_(Coming soon)_
+<!-- Install the module with: `npm install pilot-fish`
 
 ```javascript
 var pilot_fish = require('pilot-fish');
-pilot_fish.awesome(); // "awesome"
-```
+``` -->
 
 ## Documentation
 _(Coming soon)_
