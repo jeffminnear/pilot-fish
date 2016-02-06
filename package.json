@@ -1,0 +1,38 @@
+{
+  "name": "pilot-fish",
+  "description": "A Node.js command line utility to check the prices of PC games on various sites",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jeffminnear/pilot-fish",
+  "author": {
+    "name": "Jeff Minnear",
+    "email": "jeffminnear@gmail.com",
+    "url": "www.jeffminnear.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeffminnear/pilot-fish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffminnear/pilot-fish/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jeffminnear/pilot-fish/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/pilot-fish",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
