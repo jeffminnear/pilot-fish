@@ -41,10 +41,6 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "pf-steam": "lib/steam-scraper.js",
-    "pf-gm": "lib/green-man-scraper.js",
-    "pf-gog": "lib/gog-scraper.js",
-    "pf-amazon": "lib/amazon-scraper.js",
     "pf": "lib/pf.js"
   }
 }
