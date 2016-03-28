@@ -22,13 +22,32 @@ The options available are:
 
 The `limit` is the number of results you want to see from each store; The default is 1.
 
-If the specific game you're looking for doesn't appear in the results, try making the title more specific and increasing the limit.
+If the game you're looking for doesn't appear in the results, try making the title more specific and increasing the limit.
 
-## Contributing
-If you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that all code is your original work.
+## Examples
+```
+$ pf skyrim
+
+#=> The Elder Scrolls V: Skyrim: $19.99 from steam
+#=> The Elder Scrolls V: Skyrim®: $19.99 from greenmangaming.com
+#=> The Elder Scrolls V: Skyrim: $19.99 from amazon.com
+```
+
+Note that gog.com does not carry AAA titles (with a few exceptions) and may not return a result.
+
+```
+$ pf -s 'dark souls' 4
+
+#=> Dark Souls II: $49.99  $22.99 from greenmangaming.com
+```
+
+When a game is on sale, the normal price will be displayed first in gray, followed by the current sale price in green.
 
 ## Release History
 2016-03-28 v0.1.0 Initial release.
+
+## Contributing
+This project is licensed under the MIT License. If you contribute code to this project, you are implicitly allowing that code to be published under the MIT License.
 
 ## License
 Copyright (c) 2016 Jeff Minnear  
