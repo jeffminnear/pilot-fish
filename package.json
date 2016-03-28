@@ -1,7 +1,7 @@
 {
   "name": "pilot-fish",
   "description": "A Node.js command line utility to check the prices of PC games on various sites",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/jeffminnear/pilot-fish",
   "author": {
     "name": "Jeff Minnear",
