@@ -44,6 +44,7 @@ $ pf -s 'dark souls' 4
 When a game is on sale, the normal price will be displayed first in gray, followed by the current sale price in green.
 
 ## Release History
+2016-04-18 v1.1.0 Bug fixes.
 2016-03-28 v1.0.2 Initial release.
 
 ## Contributing
