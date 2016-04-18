@@ -52,7 +52,7 @@
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
     "lodash": "^4.6.1",
-    "pf-scrapers": "^0.2.0",
+    "pf-scrapers": "^1.0.1",
     "request": "^2.69.0",
     "when": "^3.7.7"
   },
